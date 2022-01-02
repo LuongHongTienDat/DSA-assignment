@@ -1,0 +1,9 @@
+LINEAR 19 1
+INSERT x 2
+INSERT y
+ASSIGN y 1
+INSERT z
+ASSIGN z 'cc'
+INSERT t
+ASSIGN z x(1,'abc')
+ASSIGN t x(44,z)

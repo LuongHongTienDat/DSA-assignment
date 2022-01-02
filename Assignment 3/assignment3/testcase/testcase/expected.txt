@@ -1,0 +1,417 @@
+Test 1: Start
+0
+0
+1
+Test 1: End
+Test 2: Start
+0
+0
+Redeclared: x
+Test 2: End
+Test 3: Start
+0
+0
+0
+0
+0
+0
+TypeCannotBeInferred: ASSIGN z foo('abc')
+Test 3: End
+Test 4: Start
+0
+0
+0
+1
+Test 4: End
+Test 5: Start
+0
+0
+0
+1
+11
+Test 5: End
+Test 6: Start
+0
+0
+0
+0
+0
+TypeMismatch: ASSIGN b c(b,a)
+Test 6: End
+Test 7: Start
+0
+0
+Undeclared: a
+Test 7: End
+Test 8: Start
+0
+0
+0
+0
+TypeMismatch: CALL sum(1,2)
+Test 8: End
+Test 9: Start
+0
+0
+0
+0
+TypeMismatch: ASSIGN y x(1)
+Test 9: End
+Test 10: Start
+0
+0
+0
+0
+TypeMismatch: ASSIGN y x('a',1)
+Test 10: End
+Test 11: Start
+0
+InvalidDeclaration: a
+Test 11: End
+Test 12: Start
+0
+0
+0
+0
+Undeclared: z
+Test 12: End
+Test 13: Start
+0
+15 x//0
+Test 13: End
+Test 14: Start
+Invalid: LOOKUP string
+Test 14: End
+Test 15: Start
+Invalid: INSERT string 2
+Test 15: End
+Test 16: Start
+Invalid: CALL ba(string)
+Test 16: End
+Test 17: Start
+0
+1
+0
+0
+1
+TypeMismatch: ASSIGN z9 sum(5,z9)
+Test 17: End
+Test 18: Start
+0
+InvalidDeclaration: x
+Test 18: End
+Test 19: Start
+0
+1
+1
+6 o//0;10 abv//0
+Test 19: End
+Test 20: Start
+0
+0
+TypeMismatch: ASSIGN a 'abc'
+Test 20: End
+Test 21: Start
+0
+0
+0
+0
+0
+0
+Test 21: End
+Test 22: Start
+0
+0
+0
+0
+Test 22: End
+Test 23: Start
+0
+0
+55 nXsS//0
+55 nXsS//0
+0
+0
+55
+8
+8 h8//0;55 nXsS//0
+55
+TypeMismatch: CALL h8()
+Test 23: End
+Test 24: Start
+0
+0
+0
+0
+Undeclared: z
+Test 24: End
+Test 25: Start
+0
+0
+TypeMismatch: ASSIGN y x(1,1)
+Test 25: End
+Test 26: Start
+0
+0
+Undeclared: z
+Test 26: End
+Test 27: Start
+0
+0
+TypeMismatch: ASSIGN b a('FK')
+Test 27: End
+Test 28: Start
+0
+Invalid: ASSIGN b a
+Test 28: End
+Test 29: Start
+0
+TypeMismatch: ASSIGN b a()
+Test 29: End
+Test 30: Start
+0
+0
+0
+0
+TypeMismatch: ASSIGN x sum(5,x,m)
+Test 30: End
+Test 31: Start
+0
+0
+0
+0
+0
+0
+InvalidDeclaration: i
+Test 31: End
+Test 32: Start
+0
+0
+TypeCannotBeInferred: ASSIGN x y('con','ca')
+Test 32: End
+Test 33: Start
+0
+0
+0
+0
+0
+0
+0
+TypeMismatch: ASSIGN t x(y,z)
+Test 33: End
+Test 34: Start
+0
+0
+0
+0
+0
+0
+0
+0
+Test 34: End
+Test 35: Start
+0
+0
+0
+0
+0
+TypeMismatch: ASSIGN x x(x,y)
+Test 35: End
+Test 36: Start
+0
+Invalid: ASSIGN x(1,string)
+Test 36: End
+Test 37: Start
+0
+0
+Test 37: End
+Test 38: Start
+0
+InvalidDeclaration: x
+Test 38: End
+Test 39: Start
+0
+0
+Undeclared: y
+Test 39: End
+Test 40: Start
+0
+0
+0
+0
+UnknownBlock
+Test 40: End
+Test 41: Start
+UnknownBlock
+Test 41: End
+Test 42: Start
+0
+TypeMismatch: ASSIGN x x(1,2)
+Test 42: End
+Test 43: Start
+0
+1
+1
+2
+2
+3
+6
+TypeMismatch: ASSIGN x ''
+Test 43: End
+Test 44: Start
+0
+0
+0
+0
+Undeclared: z
+Test 44: End
+Test 45: Start
+0
+InvalidDeclaration: x
+Test 45: End
+Test 46: Start
+0
+0
+TypeMismatch: CALL tRXm(1,2)
+Test 46: End
+Test 47: Start
+0
+0
+InvalidDeclaration: z
+Test 47: End
+Test 48: Start
+0
+0
+55 nXsS//0
+55 nXsS//0
+0
+0
+55
+8
+8 h8//0;55 nXsS//0
+55
+TypeMismatch: CALL h8()
+Test 48: End
+Test 49: Start
+0
+0
+0
+8
+Test 49: End
+Test 50: Start
+0
+0
+TypeMismatch: CALL z('Q',435,z,z)
+Test 50: End
+Test 51: Start
+UnclosedBlock: 1
+Test 51: End
+Test 52: Start
+0
+InvalidDeclaration: f
+Test 52: End
+Test 53: Start
+0
+11 z//0
+0
+UnclosedBlock: 3
+Test 53: End
+Test 54: Start
+0
+TypeMismatch: ASSIGN zn4z mcba(mcba,mcba,'MW',mcba)
+Test 54: End
+Test 55: Start
+0
+0
+InvalidDeclaration: h
+Test 55: End
+Test 56: Start
+0
+0
+InvalidDeclaration: z
+Test 56: End
+Test 57: Start
+0
+3 a4N//0
+0
+0 kL9x2//0;3 a4N//0
+0
+0 kL9x2//0;3 a4N//0;8 wsM__h//0
+0
+0 kL9x2//0;3 a4N//0;6 hB//0;8 wsM__h//0
+0
+0 kL9x2//0;3 a4N//0;6 hB//0;8 wsM__h//0;10 xaA3//0
+0
+0 kL9x2//0;3 a4N//0;6 hB//0;8 wsM__h//0;10 xaA3//0;11 h3//0
+2
+0 kL9x2//0;3 a4N//0;6 hB//0;8 wsM__h//0;10 xaA3//0;11 h3//0;12 oRkTCK//0
+1
+0 kL9x2//0;3 a4N//0;6 hB//0;7 rR//0;8 wsM__h//0;10 xaA3//0;11 h3//0;12 oRkTCK//0
+2
+0 kL9x2//0;3 a4N//0;6 hB//0;7 rR//0;8 wsM__h//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;19 kfysp//0
+0
+0 kL9x2//0;3 a4N//0;4 aozaaE//0;6 hB//0;7 rR//0;8 wsM__h//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;19 kfysp//0
+1
+0 kL9x2//0;1 b//0;3 a4N//0;4 aozaaE//0;6 hB//0;7 rR//0;8 wsM__h//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;19 kfysp//0
+1
+0 kL9x2//0;1 b//0;3 a4N//0;4 aozaaE//0;6 hB//0;7 rR//0;8 wsM__h//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;16 q//0;19 kfysp//0
+1
+0 kL9x2//0;1 b//0;3 a4N//0;4 aozaaE//0;6 hB//0;7 rR//0;8 wsM__h//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;16 q//0;19 kfysp//0;20 u//0
+2
+0 kL9x2//0;1 b//0;3 a4N//0;4 aozaaE//0;5 n4p//0;6 hB//0;7 rR//0;8 wsM__h//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;16 q//0;19 kfysp//0;20 u//0
+7
+0 kL9x2//0;1 b//0;2 e//0;3 a4N//0;4 aozaaE//0;5 n4p//0;6 hB//0;7 rR//0;8 wsM__h//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;16 q//0;19 kfysp//0;20 u//0
+9
+0 kL9x2//0;1 b//0;2 e//0;3 a4N//0;4 aozaaE//0;5 n4p//0;6 hB//0;7 rR//0;8 wsM__h//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;16 q//0;18 yI//0;19 kfysp//0;20 u//0
+2
+0 kL9x2//0;1 b//0;2 e//0;3 a4N//0;4 aozaaE//0;5 n4p//0;6 hB//0;7 rR//0;8 wsM__h//0;9 pnkXb//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;16 q//0;18 yI//0;19 kfysp//0;20 u//0
+0
+0 kL9x2//0;1 b//0;2 e//0;3 a4N//0;4 aozaaE//0;5 n4p//0;6 hB//0;7 rR//0;8 wsM__h//0;9 pnkXb//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;16 q//0;18 yI//0;19 kfysp//0;20 u//0;22 ie6Q//0
+0
+0 kL9x2//0;1 b//0;2 e//0;3 a4N//0;4 aozaaE//0;5 n4p//0;6 hB//0;7 rR//0;8 wsM__h//0;9 pnkXb//0;10 xaA3//0;11 h3//0;12 oRkTCK//0;16 q//0;17 hM//0;18 yI//0;19 kfysp//0;20 u//0;22 ie6Q//0
+Test 57: End
+Test 58: Start
+0
+0
+0
+0
+0
+0
+0
+3
+0
+2
+Test 58: End
+Test 59: Start
+0
+0
+0
+0
+InvalidDeclaration: qyl
+Test 59: End
+Test 60: Start
+0
+0
+Overflow: INSERT m 1
+Test 60: End
+Test 61: Start
+0
+Invalid: ASSIGN a 'abc_c'
+Test 61: End
+Test 62: Start
+0
+0
+Undeclared: x
+Test 62: End
+Test 63: Start
+0
+0
+0
+TypeMismatch: ASSIGN a_ st('3 Kc','3Xc')
+Test 63: End
+Test 64: Start
+0
+0
+0
+UnclosedBlock: 1
+Test 64: End

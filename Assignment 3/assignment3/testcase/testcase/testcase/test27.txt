@@ -1,0 +1,4 @@
+DOUBLE 169 256
+INSERT a 1
+CALL a('xX')
+ASSIGN b a('FK')

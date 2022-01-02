@@ -1,0 +1,4 @@
+LINEAR 19 1
+INSERT x 2
+INSERT y 1
+ASSIGN z x(1,1)

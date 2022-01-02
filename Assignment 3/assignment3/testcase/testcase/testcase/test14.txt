@@ -1,0 +1,2 @@
+QUADRATIC 20 1 2
+LOOKUP string

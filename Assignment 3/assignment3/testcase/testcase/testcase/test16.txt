@@ -1,0 +1,2 @@
+QUADRATIC 12 20 2
+CALL ba(string)

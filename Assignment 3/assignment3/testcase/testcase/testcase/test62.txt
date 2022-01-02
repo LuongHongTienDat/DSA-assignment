@@ -1,0 +1,4 @@
+LINEAR 19 1
+INSERT y 1
+CALL y(12)
+ASSIGN x y(x)

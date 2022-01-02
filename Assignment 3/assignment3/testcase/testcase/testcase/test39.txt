@@ -1,0 +1,6 @@
+LINEAR 19 1
+INSERT x
+ASSIGN x 102
+ASSIGN y 10
+ASSIGN x y(x,x,x,x,x,x,x,x,x,x)
+END

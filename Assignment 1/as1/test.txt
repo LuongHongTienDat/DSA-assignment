@@ -1,0 +1,28 @@
+INSERT t string
+RPRINT
+ASSIGN t 331
+m7DDk pKXNgc
+RPRINT
+INSERT tVO number
+LOOKUP tVO
+ASSIGN t tVO
+INSERT lwRPk string
+INSERT l string
+INSERT su string
+INSERT ygSRl string
+INSERT vGG number
+BEGIN
+BEGIN
+INSERT ctAms string
+PRINT
+INSERT arkG string
+ASSIGN arkG 140
+BEGIN
+INSERT fD string
+RPRINT
+INSERT i0Kj number
+INSERT tcH number
+INSERT zG string
+INSERT k number
+INSERT sZ string
+END

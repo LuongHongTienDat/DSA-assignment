@@ -1,0 +1,7 @@
+LINEAR 19 1
+INSERT a 1
+INSERT b
+INSERT c 2
+CALL a('abe')
+ASSIGN b 45
+ASSIGN b c(b,a)

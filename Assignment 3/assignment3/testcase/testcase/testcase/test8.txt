@@ -1,0 +1,7 @@
+LINEAR 19 1
+INSERT x
+INSERT sum 2
+ASSIGN x 100
+ASSIGN x sum(1,2)
+CALL sum(1,2)
+ASSIGN x sum(1,2)

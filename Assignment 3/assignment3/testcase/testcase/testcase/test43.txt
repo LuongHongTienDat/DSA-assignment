@@ -1,0 +1,9 @@
+LINEAR 19 1
+INSERT x
+INSERT xy
+INSERT f 4
+INSERT y
+ASSIGN y 2
+ASSIGN y f(1,1,1,1)
+ASSIGN y f(xy,xy,xy,x)
+ASSIGN x ''

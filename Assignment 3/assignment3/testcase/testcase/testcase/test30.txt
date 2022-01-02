@@ -1,0 +1,7 @@
+LINEAR 19 1
+INSERT x
+INSERT sum 2
+ASSIGN x 1
+BEGIN
+INSERT sum
+ASSIGN x sum(5,x,m)

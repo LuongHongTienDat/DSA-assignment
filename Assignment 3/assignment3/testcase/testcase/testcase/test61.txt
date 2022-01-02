@@ -1,0 +1,3 @@
+LINEAR 19 84
+INSERT a
+ASSIGN a 'abc_c'

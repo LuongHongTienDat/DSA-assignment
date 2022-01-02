@@ -1,0 +1,4 @@
+LINEAR 19 1
+INSERT a
+ASSIGN a 12
+ASSIGN a 'abc'

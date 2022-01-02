@@ -1,0 +1,3 @@
+LINEAR 19 1
+INSERT x 2
+ASSIGN x x(1,2)

@@ -1,0 +1,8 @@
+QUADRATIC 35 809 214
+BEGIN
+END
+INSERT mcba 4
+ASSIGN zn4z mcba(mcba,mcba,'MW',mcba)
+INSERT wF8BL
+CALL mcba(710,'l Q',wF8BL,'DhF')
+PRINT

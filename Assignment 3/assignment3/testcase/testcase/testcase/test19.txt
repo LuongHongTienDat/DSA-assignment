@@ -1,0 +1,5 @@
+DOUBLE 19 3
+INSERT o
+INSERT abv 1
+CALL abv('dfs df')
+PRINT

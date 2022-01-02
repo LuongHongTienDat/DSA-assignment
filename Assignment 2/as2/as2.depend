@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1630009526 source:c:\users\admin\downloads\assignment 2\as2\main.cpp
+	"SymbolTable.h"
+	"SymbolTable.cpp"
+
+1634808437 c:\users\admin\downloads\assignment 2\as2\symboltable.h
+	"main.h"
+
+1629735320 c:\users\admin\downloads\assignment 2\as2\main.h
+	<iostream>
+	<string>
+	<fstream>
+	<regex>
+	"error.h"
+
+1634834724 c:\users\admin\downloads\assignment 2\as2\error.h
+	<string>
+	<stdio.h>
+	<string.h>
+	<iostream>
+
+1635475253 c:\users\admin\downloads\assignment 2\as2\symboltable.cpp
+	"SymbolTable.h"
+

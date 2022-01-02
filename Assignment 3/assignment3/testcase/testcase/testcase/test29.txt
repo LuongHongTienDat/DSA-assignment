@@ -1,0 +1,3 @@
+DOUBLE 169 256
+INSERT a
+ASSIGN b a()
